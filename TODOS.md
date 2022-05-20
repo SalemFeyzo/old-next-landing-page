@@ -18,6 +18,6 @@ colors:
     whichever looks better
 
 -Add privacy policy, terms of use as pdf
--Add cookies notice
+-Add cookies notice done
 -Change/add text content
 -Map and address
