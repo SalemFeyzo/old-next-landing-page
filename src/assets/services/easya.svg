@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="57"
+   height="57"
+   viewBox="0 0 57 57"
+   fill="none"
+   version="1.1"
+   id="svg13"
+   sodipodi:docname="easya.svg"
+   inkscape:version="1.1 (c68e22c387, 2021-05-23)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview15"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     inkscape:zoom="14.070175"
+     inkscape:cx="28.5"
+     inkscape:cy="28.535536"
+     inkscape:window-width="1920"
+     inkscape:window-height="991"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg13" />
+  <path
+     fill-rule="evenodd"
+     clip-rule="evenodd"
+     d="M24.5416 0.791616H32.4583C45.5751 0.791616 56.2083 11.4246 56.2083 24.5416V32.4583C56.2083 45.5748 45.5751 56.2082 32.4583 56.2082H24.5416C11.4249 56.2082 0.791616 45.5748 0.791616 32.4583V24.5416C0.791616 11.4246 11.4249 0.791616 24.5416 0.791616Z"
+     fill="url(#paint0_linear)"
+     id="path2" />
+  <defs
+     id="defs11">
+    <linearGradient
+       id="paint0_linear"
+       x1="32.7855"
+       y1="89.7855"
+       x2="89.7855"
+       y2="24.2145"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         stop-color="#FF5858"
+         id="stop6" />
+      <stop
+         offset="1"
+         stop-color="#F857A6"
+         id="stop8" />
+    </linearGradient>
+  </defs>
+  <g
+     id="g10"
+     style="fill:#ffffff"
+     transform="matrix(0.07836348,0,0,0.07408475,9.1588032,10.278165)">
+    <path
+       d="m 245,367.5 c -52.427,0 -95.09,-42.663 -95.09,-95.09 h -30.625 c 0,69.325 56.39,125.715 125.715,125.715 69.325,0 125.715,-56.39 125.715,-125.715 H 340.09 c 0,52.427 -42.663,95.09 -95.09,95.09 z"
+       id="path2-4"
+       style="fill:#ffffff" />
+    <circle
+       cx="157.651"
+       cy="175.289"
+       r="42.641998"
+       id="circle4"
+       style="fill:#ffffff" />
+    <circle
+       cx="332.349"
+       cy="175.289"
+       r="42.641998"
+       id="circle6"
+       style="fill:#ffffff" />
+    <path
+       d="M 420.914,0 H 69.086 C 30.999,0 0,30.999 0,69.086 V 420.915 C 0,459.001 30.999,490 69.086,490 H 420.915 C 459.001,490 490,459.001 490,420.914 V 69.086 C 490,30.999 459.001,0 420.914,0 Z m 38.461,420.914 c 0,21.204 -17.257,38.461 -38.461,38.461 H 69.086 c -21.204,0 -38.461,-17.257 -38.461,-38.461 V 69.086 c 0,-21.204 17.257,-38.461 38.461,-38.461 h 351.829 c 21.204,0 38.461,17.257 38.461,38.461 v 351.828 z"
+       id="path8-4"
+       style="fill:#ffffff" />
+  </g>
+</svg>

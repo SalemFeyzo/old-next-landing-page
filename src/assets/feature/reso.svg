@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="95"
+   height="105"
+   viewBox="0 0 95 105"
+   fill="none"
+   version="1.1"
+   id="svg41"
+   sodipodi:docname="reso.svg"
+   inkscape:version="1.1 (c68e22c387, 2021-05-23)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview43"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     inkscape:zoom="7.6380952"
+     inkscape:cx="47.524938"
+     inkscape:cy="51.910848"
+     inkscape:window-width="1920"
+     inkscape:window-height="991"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg41" />
+  <g
+     filter="url(#filter0_d)"
+     id="g6">
+    <path
+       fill-rule="evenodd"
+       clip-rule="evenodd"
+       d="M47.4999 17.9999C62.1355 17.9999 73.9999 29.8644 73.9999 44.4999C73.9999 59.1353 62.1355 70.9999 47.4999 70.9999C32.8644 70.9999 21 59.1353 21 44.4999C21 29.8644 32.8644 17.9999 47.4999 17.9999Z"
+       fill="#FF4361"
+       id="path2" />
+    <path
+       fill-rule="evenodd"
+       clip-rule="evenodd"
+       d="M47.4999 17.9999C62.1355 17.9999 73.9999 29.8644 73.9999 44.4999C73.9999 59.1353 62.1355 70.9999 47.4999 70.9999C32.8644 70.9999 21 59.1353 21 44.4999C21 29.8644 32.8644 17.9999 47.4999 17.9999Z"
+       fill="url(#paint0_linear)"
+       id="path4" />
+  </g>
+  <path
+     fill-rule="evenodd"
+     clip-rule="evenodd"
+     d="M43 0.999936H52.9999C69.5685 0.999936 82.9999 14.4311 82.9999 30.9999V40.9999C82.9999 57.5682 69.5685 70.9998 52.9999 70.9998H43C26.4315 70.9998 12.9999 57.5682 12.9999 40.9999V30.9999C12.9999 14.4311 26.4315 0.999936 43 0.999936Z"
+     fill="#FF4361"
+     id="path8" />
+  <path
+     fill-rule="evenodd"
+     clip-rule="evenodd"
+     d="M43 0.999936H52.9999C69.5685 0.999936 82.9999 14.4311 82.9999 30.9999V40.9999C82.9999 57.5682 69.5685 70.9998 52.9999 70.9998H43C26.4315 70.9998 12.9999 57.5682 12.9999 40.9999V30.9999C12.9999 14.4311 26.4315 0.999936 43 0.999936Z"
+     fill="url(#paint1_linear)"
+     id="path10" />
+  <defs
+     id="defs39">
+    <filter
+       id="filter0_d"
+       x="-3.05176e-05"
+       y="9.99988"
+       width="95"
+       height="95"
+       filterUnits="userSpaceOnUse"
+       color-interpolation-filters="sRGB">
+      <feFlood
+         flood-opacity="0"
+         result="BackgroundImageFix"
+         id="feFlood14" />
+      <feColorMatrix
+         in="SourceAlpha"
+         type="matrix"
+         values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+         id="feColorMatrix16" />
+      <feOffset
+         dy="13"
+         id="feOffset18" />
+      <feGaussianBlur
+         stdDeviation="10.5"
+         id="feGaussianBlur20" />
+      <feColorMatrix
+         type="matrix"
+         values="0 0 0 0 1 0 0 0 0 0.266667 0 0 0 0 0.341176 0 0 0 0.3 0"
+         id="feColorMatrix22" />
+      <feBlend
+         mode="normal"
+         in2="BackgroundImageFix"
+         result="effect1_dropShadow"
+         id="feBlend24" />
+      <feBlend
+         mode="normal"
+         in="SourceGraphic"
+         in2="effect1_dropShadow"
+         result="shape"
+         id="feBlend26" />
+    </filter>
+    <linearGradient
+       id="paint0_linear"
+       x1="51.6351"
+       y1="103.635"
+       x2="106.635"
+       y2="40.3649"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         stop-color="#F80759"
+         id="stop29" />
+      <stop
+         offset="1"
+         stop-color="#BC4E9C"
+         id="stop31" />
+    </linearGradient>
+    <linearGradient
+       id="paint1_linear"
+       x1="53.4132"
+       y1="113.413"
+       x2="125.413"
+       y2="30.5868"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         stop-color="#FF416C"
+         id="stop34" />
+      <stop
+         offset="1"
+         stop-color="#FF4B2B"
+         id="stop36" />
+    </linearGradient>
+  </defs>
+  <g
+     id="g1265"
+     style="fill:none;fill-opacity:1;stroke:#ffffff;stroke-opacity:1"
+     transform="matrix(0.72566011,0,0,0.73875238,30.501864,17.488147)">
+    <path
+       d="M 4,24 H 17"
+       stroke="black"
+       stroke-width="4"
+       stroke-linecap="round"
+       stroke-linejoin="round"
+       id="path6"
+       style="fill:none;fill-opacity:1;stroke:#ffffff;stroke-opacity:1" />
+    <g
+       id="g1047"
+       style="fill:none;fill-opacity:1;stroke:#ffffff;stroke-opacity:1">
+      <rect
+         x="4"
+         y="4"
+         width="40"
+         height="40"
+         rx="2"
+         stroke="black"
+         stroke-width="4"
+         stroke-linejoin="round"
+         id="rect4"
+         style="fill:none;fill-opacity:1;stroke:#ffffff;stroke-opacity:1" />
+      <path
+         d="M 31,24 H 44"
+         stroke="black"
+         stroke-width="4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         id="path8-2"
+         style="fill:none;fill-opacity:1;stroke:#ffffff;stroke-opacity:1" />
+      <path
+         d="m 24,31 c 3.866,0 7,-3.134 7,-7 0,-3.866 -3.134,-7 -7,-7 -3.866,0 -7,3.134 -7,7 0,3.866 3.134,7 7,7 z"
+         fill="#2F88FF"
+         stroke="black"
+         stroke-width="4"
+         stroke-linejoin="round"
+         id="path10-1"
+         style="fill:none;fill-opacity:1;stroke:#ffffff;stroke-opacity:1" />
+    </g>
+  </g>
+</svg>
