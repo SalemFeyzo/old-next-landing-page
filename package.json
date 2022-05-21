@@ -8,6 +8,7 @@
     "postbuild": "next-sitemap"
   },
   "dependencies": {
+    "@react-pdf/renderer": "^2.1.1",
     "dotenv": "^8.2.0",
     "framer-motion": "^2.7.5",
     "globby": "^11.0.0",
@@ -23,6 +24,7 @@
     "react-dom": "16.13.0",
     "react-ga": "^3.1.2",
     "react-icons": "^3.10.0",
+    "react-modal": "^3.15.1",
     "react-modal-video": "^1.2.6",
     "react-multi-carousel": "^2.5.5",
     "react-scroll": "^1.8.0",

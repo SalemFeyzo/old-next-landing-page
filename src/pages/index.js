@@ -1,10 +1,5 @@
 import React from "react";
-import { ThemeProvider } from "theme-ui";
-import theme from "theme";
-import Popup from "components/Popup";
 
-import SEO from "components/seo";
-import Layout from "components/layout";
 import Banner from "../sections/banner";
 import KeyFeature from "../sections/key-feature";
 import ServiceSection from "../sections/service-section";
@@ -17,20 +12,16 @@ import TestimonialCard from "../sections/testimonial";
 
 export default function IndexPage() {
   return (
-    <ThemeProvider theme={theme}>
-      <Layout>
-        <SEO title="TECHOMODɅ" />
-        <Banner />
-        <KeyFeature />
-        <ServiceSection />
-        <Feature />
-        <CoreFeature />
-        <WorkFlow />
-        <Package />
-        <TeamSection />
-        <TestimonialCard />
-      </Layout>
-      <Popup />
-    </ThemeProvider>
+    <>
+      <Banner />
+      <KeyFeature />
+      <ServiceSection />
+      <Feature />
+      <CoreFeature />
+      <WorkFlow />
+      <Package />
+      <TeamSection />
+      <TestimonialCard />
+    </>
   );
 }
