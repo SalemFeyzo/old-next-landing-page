@@ -91,6 +91,7 @@ const styles = {
     contentBoxItems: {
       width: ["100%", "90%", "535px", null, "57%", "60%", "68%", "60%"],
       mx: "auto",
+      overflowWrap: "break-word",
       textAlign: "start",
       mb: ["40px", null, null, null, null, 7],
     },
