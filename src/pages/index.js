@@ -1,4 +1,8 @@
 import React from "react";
+import Layout from "components/layout";
+import { ThemeProvider } from "theme-ui";
+import theme from "theme";
+import SEO from "components/seo";
 
 import Banner from "../sections/banner";
 import KeyFeature from "../sections/key-feature";
@@ -12,16 +16,19 @@ import TestimonialCard from "../sections/testimonial";
 
 export default function IndexPage() {
   return (
-    <>
-      <Banner />
-      <KeyFeature />
-      <ServiceSection />
-      <Feature />
-      <CoreFeature />
-      <WorkFlow />
-      <Package />
-      <TeamSection />
-      <TestimonialCard />
-    </>
+    <ThemeProvider theme={theme}>
+      <Layout>
+        <SEO title="TECHOMODɅ" />
+        <Banner />
+        <KeyFeature />
+        <ServiceSection />
+        <Feature />
+        <CoreFeature />
+        <WorkFlow />
+        <Package />
+        <TeamSection />
+        <TestimonialCard />
+      </Layout>
+    </ThemeProvider>
   );
 }

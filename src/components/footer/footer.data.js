@@ -2,9 +2,10 @@
 export default {
   menuItem: [
     {
-      path: 'mailto:cloud@techomoda.com',
-      label: 'Email Us',
-    }, 
+      path: "mailto:cloud@techomoda.com",
+      label: "Email Us",
+    },
+
     /*{
       path: '/',
       label: 'Adversite',
@@ -18,8 +19,8 @@ export default {
       label: 'or',
     },*/
     {
-      path: 'tel:+447979680096',
-      label: 'Call Now',
+      path: "tel:+447979680096",
+      label: "Call Now",
     },
   ],
 };

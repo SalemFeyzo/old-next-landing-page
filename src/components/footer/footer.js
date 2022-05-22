@@ -1,7 +1,8 @@
 /** @jsx jsx */
-import {} from "next/link";
+
 import { jsx, Box, Container, Image, Text } from "theme-ui";
-import { Link } from "components/link";
+import { Link as Clink } from "components/link";
+import Link from "next/link";
 import data from "./footer.data";
 import FooterLogo from "assets/logo.svg";
 
@@ -10,19 +11,22 @@ export default function Footer() {
     <footer sx="styles.footer">
       <Container>
         <Box sx={styles.footer.footerBottomArea}>
-          <Link path="/">
+          <Clink path="/">
             <Image src={FooterLogo} alt="Logo" />
-          </Link>
+          </Clink>
           <Box sx={styles.footer.menus}>
             <nav>
               {data.menuItem.map((item, i) => (
-                <Link
+                <Clink
                   path={item.path}
                   key={i}
                   label={item.label}
                   sx={styles.footer.link}
                 />
               ))}
+              <Link href="/privacy-policy">
+                <a sx={styles.footer.link}>Privacy Policy</a>
+              </Link>
             </nav>
           </Box>
           <Text sx={styles.footer.copyright}>
