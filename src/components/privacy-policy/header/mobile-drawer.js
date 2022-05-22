@@ -3,7 +3,6 @@ import { Box } from "theme-ui";
 import { Scrollbars } from "react-custom-scrollbars";
 import Drawer from "components/drawer";
 import { IoMdClose, IoMdMenu } from "react-icons/io";
-import { Link as Clink } from "react-scroll";
 import Link from "next/link";
 import {
   FaFacebookF,
@@ -54,17 +53,6 @@ export default function MobileDrawer() {
         <Box sx={styles.content}>
           <Box sx={styles.menu}>
             {menuItems.map((menuItem, i) => (
-              // <Link
-              //   activeClass="active"
-              //   to={menuItem.path}
-              //   spy={true}
-              //   smooth={true}
-              //   offset={-70}
-              //   duration={500}
-              //   key={i}
-              // >
-              //   {menuItem.label}
-              // </Link>
               <Link key={i} className="active" href={menuItem.path}>
                 <a className="privacy-side-menu-items">{menuItem.label}</a>
               </Link>
@@ -74,7 +62,11 @@ export default function MobileDrawer() {
             <Box sx={styles.social}>
               {social.map((socialItem, i) => (
                 <Box as="span" key={i} sx={styles.social.icon}>
-                  <Clink to={socialItem.path}>{socialItem.icon}</Clink>
+                  <Link href={socialItem.path}>
+                    <a className="privacy-side-menu-items" target="_blank">
+                      {socialItem.icon}
+                    </a>
+                  </Link>
                 </Box>
               ))}
             </Box>
@@ -117,7 +109,7 @@ const styles = {
 
   content: {
     width: "100%",
-    height: "100%",
+    height: "90%",
     display: "flex",
     flexDirection: "column",
     pt: "100px",

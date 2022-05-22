@@ -1,35 +1,40 @@
 /** @jsx jsx */
-import { jsx } from 'theme-ui';
-import { Container, Grid } from 'theme-ui';
-import SectionHeader from 'components/section-header';
-import TeamCard from 'components/team-card';
-import { FaFacebookF, FaTwitter, FaInstagram, FaLinkedin } from 'react-icons/fa';
+import { jsx } from "theme-ui";
+import { Container, Grid } from "theme-ui";
+import SectionHeader from "components/section-header";
+import TeamCard from "components/team-card";
+import {
+  FaFacebookF,
+  FaTwitter,
+  FaInstagram,
+  FaLinkedin,
+} from "react-icons/fa";
 
-import Member1 from 'assets/team/member-1.png';
-import Member2 from 'assets/team/member-2.png';
-import Member3 from 'assets/team/member-3.png';
-import Member4 from 'assets/team/member-4.png';
-import Member5 from 'assets/team/member-5.png';
-import Member6 from 'assets/team/member-6.png';
+import Member1 from "assets/team/member-1.png";
+import Member2 from "assets/team/member-2.png";
+import Member3 from "assets/team/member-3.png";
+import Member4 from "assets/team/member-4.png";
+import Member5 from "assets/team/member-5.png";
+import Member6 from "assets/team/member-6.png";
 
 const data = [
   {
     id: 1,
     imgSrc: Member1,
-    altText: 'Justin Endrijaitis',
-    title: 'Justin Endrijaitis',
-    designation: 'Cloud Consultant',
+    altText: "Justin Endrijaitis",
+    title: "Justin Endrijaitis",
+    designation: "Cloud Consultant",
     socialProfile: [
       {
         id: 1,
-        name: 'LinkedIn',
-        path: 'https://www.linkedin.com/in/techomoda',
+        name: "LinkedIn",
+        path: "https://www.linkedin.com/in/techomoda",
         icon: <FaLinkedin />,
       },
       {
         id: 2,
-        name: 'Twitter',
-        path: 'https://twitter.com/techomoda',
+        name: "Twitter",
+        path: "https://twitter.com/techomoda",
         icon: <FaTwitter />,
       },
       /*{
@@ -185,18 +190,18 @@ export default function TeamSection() {
           slogan="Our Team"
           title="The most qualified and talented individuals"
         />
-      <Grid sx={styles.grid}>
-        {data.map((item) => (
-          <TeamCard
-            key={item.id}
-            src={item.imgSrc}
-            altText={item.altText}
-            title={item.title}
-            designation={item.designation}
-            social={item.socialProfile}
-          />
-        ))}
-      </Grid>
+        <Grid sx={styles.grid}>
+          {data.map((item) => (
+            <TeamCard
+              key={item.id}
+              src={item.imgSrc}
+              altText={item.altText}
+              title={item.title}
+              designation={item.designation}
+              social={item.socialProfile}
+            />
+          ))}
+        </Grid>
       </Container>
     </section>
   );
@@ -205,13 +210,13 @@ export default function TeamSection() {
 const styles = {
   grid: {
     mt: [0, null, -6, null, -4],
-    gridGap: ['35px 0px', null, 0, null, null, '30px 35px'],
+    gridGap: ["35px 0px", null, 0, null, null, "30px 35px"],
     gridTemplateColumns: [
-      'repeat(2,1fr)',
+      "repeat(1,1fr)",
       null,
-      'repeat(2,1fr)',
+      "repeat(1,1fr)",
       null,
-      'repeat(3,1fr)',
+      "repeat(1,1fr)",
     ],
   },
 };
