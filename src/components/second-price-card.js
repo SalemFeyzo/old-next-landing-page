@@ -70,10 +70,7 @@ export default function PriceCard({
           <Text as="p">{description}</Text>
         </Box>
         <List items={points} childStyle={styles.listItem} />
-        <Text className="package__price" sx={styles.price}>
-          {priceWithUnit}
-          <span>/Monthly</span>
-        </Text>
+
         <Box as="form" ref={form} sx={styles.order} onSubmit={submitHandler}>
           <Input
             type="email"
@@ -82,11 +79,7 @@ export default function PriceCard({
             name="user_email"
             onChange={(e) => setEmail(e.target.value)}
           />
-          <textarea
-            name="message"
-            defaultValue={`I need website plan ${name}. `}
-            hidden
-          />
+          <textarea name="message" defaultValue={`I need ${name}. `} hidden />
           {loading ? (
             error ? (
               <Button type="submit">Order Again</Button>

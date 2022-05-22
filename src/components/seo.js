@@ -1,11 +1,11 @@
-import React from 'react';
-import Head from 'next/head';
+import React from "react";
+import Head from "next/head";
 
 export default function SEO({
-  description = 'Techomoda Cloud Consulting Web Design',
-  author = 'Techomoda',
-  meta = 'Techomoda Cloud Consulting Web Design',
-  title = 'Techomoda Cloud Consulting Web Design',
+  description = "techomoda, cloud, consulting, top, notch, tech, smart, apps, web, websites, data, management, whats",
+  author = "Techomoda",
+  meta = "Techomoda Cloud Consulting Web Design",
+  title = "Techomoda Cloud Consulting | Website Design | Nottingham",
 }) {
   const metaData = [
     {
@@ -41,7 +41,6 @@ export default function SEO({
       content: description,
     },
   ].concat(meta);
-  
   return (
     <Head>
       <title>{title}</title>

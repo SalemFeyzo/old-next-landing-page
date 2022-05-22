@@ -3,7 +3,7 @@ import { jsx, Container, Box, Flex } from "theme-ui";
 import { keyframes } from "@emotion/core";
 import React, { useState } from "react";
 import Carousel from "react-multi-carousel";
-import PriceCard from "components/price-card";
+import PriceCard from "components/second-price-card";
 import ButtonGroup from "components/button-group";
 import SectionHeader from "components/section-header";
 import { IoIosCheckmarkCircle, IoIosCloseCircle } from "react-icons/io";
@@ -12,103 +12,76 @@ const packages = {
   monthly: [
     {
       id: 1,
-      name: "ONE",
-      description: "For Small Teams",
-      buttonText: "Order Now",
+      name: "APPS",
+      description: "For every team",
       priceWithUnit: "£50",
       points: [
         {
           id: 1,
           icon: <IoIosCheckmarkCircle />,
-          text: "1 page",
+          text: "Collaboration",
           isAvailable: true,
         },
         {
           id: 2,
           icon: <IoIosCheckmarkCircle />,
-          text: "Amazing & Responsive Design",
+          text: "Project Management",
           isAvailable: true,
         },
         {
           id: 3,
           icon: <IoIosCheckmarkCircle />,
-          text: "Hosting, SSL, email for 1 year",
+          text: "Communication",
           isAvailable: true,
         },
         {
           id: 4,
-          icon: <IoIosCloseCircle />,
-          text: "Website Analytics",
+          icon: <IoIosCheckmarkCircle />,
+          text: "Accounting",
+          isAvailable: true,
+        },
+        {
+          id: 5,
+          icon: <IoIosCheckmarkCircle />,
+          text: "CRM",
           isAvailable: true,
         },
       ],
     },
     {
       id: 2,
-      name: "STD",
-      description: "For small and medium business",
+      name: "TECH",
+      description: "For work on the cloud",
       priceWithUnit: "£150",
-      buttonText: "Create account",
-      //  anotherOption: 'Or Start 14 Days trail',
       points: [
         {
           id: 1,
           icon: <IoIosCheckmarkCircle />,
-          text: "Up to 10 pages",
+          text: "Remote Virtual Desktop",
           isAvailable: true,
         },
         {
           id: 2,
           icon: <IoIosCheckmarkCircle />,
-          text: "Premium & Responsive Design",
+          text: "Reliable and Fast",
           isAvailable: true,
         },
         {
           id: 3,
           icon: <IoIosCheckmarkCircle />,
-          text: "Hosting, SSL, email for 1 year",
+          text: "Safe and Secure",
           isAvailable: true,
         },
         {
           id: 4,
           icon: <IoIosCheckmarkCircle />,
-          text: "Website Analytics",
-          isAvailable: true,
-        },
-      ],
-    },
-    {
-      id: 3,
-      header: "Suggested",
-      headerIcon: <IoIosCheckmarkCircle />,
-      name: "PRO",
-      description: "For online shops",
-      priceWithUnit: "£300",
-      buttonText: "Create account",
-      //  anotherOption: 'Or Start 14 Days trail',
-      points: [
-        {
-          id: 1,
-          icon: <IoIosCheckmarkCircle />,
-          text: "Up to 50 pages",
+          text: "Dedicated GPU (on demand)",
           isAvailable: true,
         },
         {
-          id: 2,
+          id: 5,
           icon: <IoIosCheckmarkCircle />,
-          text: "Exclusive & Responsive Design",
-          isAvailable: true,
-        },
-        {
-          id: 3,
-          icon: <IoIosCheckmarkCircle />,
-          text: "Hosting, SSL, email for 1 year",
-          isAvailable: true,
-        },
-        {
-          id: 4,
-          icon: <IoIosCheckmarkCircle />,
-          text: "Website Analytics",
+          text: "Weekly Backup",
           isAvailable: true,
         },
       ],
@@ -117,103 +90,77 @@ const packages = {
   annual: [
     {
       id: 1,
-      name: "ONE",
-      description: "For Small Teams",
-      buttonText: "",
+      name: "APPS",
+      description: "For every team",
       priceWithUnit: "£50",
       points: [
         {
           id: 1,
           icon: <IoIosCheckmarkCircle />,
-          text: "1 page",
+          text: "Collaboration",
           isAvailable: true,
         },
         {
           id: 2,
           icon: <IoIosCheckmarkCircle />,
-          text: "Amazing & Responsive Design",
+          text: "Project Management",
           isAvailable: true,
         },
         {
           id: 3,
           icon: <IoIosCheckmarkCircle />,
-          text: "Hosting, SSL, email for 1 year",
+          text: "Communication",
           isAvailable: true,
         },
         {
           id: 4,
-          icon: <IoIosCloseCircle />,
-          text: "Website Analytics",
+          icon: <IoIosCheckmarkCircle />,
+          text: "Accounting",
+          isAvailable: true,
+        },
+        {
+          id: 5,
+          icon: <IoIosCheckmarkCircle />,
+          text: "CRM",
           isAvailable: true,
         },
       ],
     },
+
     {
       id: 2,
-      name: "STD",
-      description: "For small and medium business",
-      priceWithUnit: "£80",
-      buttonText: "Create account",
-      // anotherOption: 'Or Start 10 Days trail',
+      name: "TECH",
+      description: "For work on the cloud",
+      priceWithUnit: "£150",
       points: [
         {
           id: 1,
           icon: <IoIosCheckmarkCircle />,
-          text: "Up to 10 pages",
+          text: "Remote Virtual Desktop",
           isAvailable: true,
         },
         {
           id: 2,
           icon: <IoIosCheckmarkCircle />,
-          text: "Premium & Responsive Design",
+          text: "Reliable and Fast",
           isAvailable: true,
         },
         {
           id: 3,
           icon: <IoIosCheckmarkCircle />,
-          text: "Hosting, SSL, email for 1 year",
+          text: "Safe and Secure",
           isAvailable: true,
         },
         {
           id: 4,
           icon: <IoIosCheckmarkCircle />,
-          text: "Website Analytics",
-          isAvailable: true,
-        },
-      ],
-    },
-    {
-      id: 3,
-      header: "Suggested",
-      headerIcon: <IoIosCheckmarkCircle />,
-      name: "PRO",
-      description: "For online shops",
-      priceWithUnit: "£250",
-      buttonText: "Create account",
-      // anotherOption: 'Or Start 10 Days trail',
-      points: [
-        {
-          id: 1,
-          icon: <IoIosCheckmarkCircle />,
-          text: "Up to 50 pages",
+          text: "Dedicated GPU (on demand)",
           isAvailable: true,
         },
         {
-          id: 2,
+          id: 5,
           icon: <IoIosCheckmarkCircle />,
-          text: "Exclusive & Responsive Design",
-          isAvailable: true,
-        },
-        {
-          id: 3,
-          icon: <IoIosCheckmarkCircle />,
-          text: "Hosting, SSL, email for 1 year",
-          isAvailable: true,
-        },
-        {
-          id: 4,
-          icon: <IoIosCheckmarkCircle />,
-          text: "Website Analytics",
+          text: "Weekly Backup",
           isAvailable: true,
         },
       ],
@@ -224,7 +171,7 @@ const packages = {
 const responsive = {
   desktop: {
     breakpoint: { max: 3000, min: 1024 },
-    items: 3,
+    items: 2,
     draggable: false,
   },
   tablet: {
@@ -239,20 +186,12 @@ const responsive = {
   },
 };
 
-export default function Package() {
+export default function CloudHint() {
   const { monthly, annual } = packages;
   const [state, setState] = useState({
     active: "monthly",
     pricingPlan: monthly,
   });
-
-  const handlePricingPlan = (plan) => {
-    if (plan == "annual") {
-      setState({ active: "annual", pricingPlan: annual });
-    } else {
-      setState({ active: "monthly", pricingPlan: monthly });
-    }
-  };
 
   const sliderParams = {
     additionalTransfrom: 0,
@@ -281,29 +220,9 @@ export default function Package() {
     <section id="pricing" sx={{ variant: "section.pricing" }}>
       <Container>
         <SectionHeader
-          slogan="Web Pricing Plan"
-          title="Choose your pricing plan"
+          slogan="CLOUD HINT"
+          title="Check your cloud opportunities"
         ></SectionHeader>
-        <Flex sx={styles.buttonGroup}>
-          <Box sx={styles.buttonGroupInner}>
-            <button
-              className={state.active == "monthly" ? "active" : ""}
-              type="button"
-              aria-label="Monthly"
-              onClick={() => handlePricingPlan("monthly")}
-            >
-              Monthly Plan
-            </button>
-            <button
-              className={state.active == "annual" ? "active" : ""}
-              type="button"
-              aria-label="Annual"
-              onClick={() => handlePricingPlan("annual")}
-            >
-              Annual Plan
-            </button>
-          </Box>
-        </Flex>
         <Box sx={styles.pricingWrapper} className="pricing__wrapper">
           <Carousel {...sliderParams}>
             {state.pricingPlan.map((packageData) => (

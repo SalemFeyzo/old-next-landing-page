@@ -13,12 +13,13 @@ import WorkFlow from "../sections/workflow";
 import Package from "../sections/package";
 import TeamSection from "../sections/team-section";
 import TestimonialCard from "../sections/testimonial";
+import CloudHint from "../sections/cloudHint";
 
 export default function IndexPage() {
   return (
     <ThemeProvider theme={theme}>
       <Layout>
-        <SEO title="TECHOMODɅ" />
+        <SEO title="Techomoda Cloud Consulting | Website Design | Nottingham" />
         <Banner />
         <KeyFeature />
         <ServiceSection />
@@ -26,6 +27,7 @@ export default function IndexPage() {
         <CoreFeature />
         <WorkFlow />
         <Package />
+        <CloudHint />
         <TeamSection />
         <TestimonialCard />
       </Layout>
